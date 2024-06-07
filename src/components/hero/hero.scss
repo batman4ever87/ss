@@ -1,0 +1,26 @@
+.hero {
+    position: relative;
+}
+
+.heroGreen {
+ color: var(--clr-accent);
+ text-indent: 0;
+}
+
+.heroStroke {
+    -webkit-text-stroke: 1px var(--clr-textStroke);
+    color: transparent;
+    font-weight: 300;
+}
+
+.heroPara {
+    color: var(--clr-white);
+    font-size: clamp(2rem, 1.6542056074766354rem + 1.4953271028037385vw, 3rem);
+    text-indent: 2rem;
+}
+
+@media screen and (max-width: 37.5em) {
+    .heroPara {
+        text-indent: 0;
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Babas;
+    src: url(../src/assets/fonts/BebasNeue-Regular.ttf) format("truetype");
+}
+
+:root {
+
+    --ff-main: Babas;
+
+    --bg: rgb(21, 21, 24);
+    --clr-white: #F8F6FD;
+    --clr-accent: #C2FF3F;
+    --clr-textStroke: #6A6A6A;
+    --clr-brownText: #828282;
+}
