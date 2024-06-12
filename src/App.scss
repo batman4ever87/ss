@@ -13,6 +13,19 @@
     scrollbar-width: none;
   }
 
+  h1 {
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: var(--ff-main);
+    font-size: clamp(1.875rem, 1.7885514018691588rem + 0.3738317757009346vw, 2.125rem);
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--clr-grayText);
+  }
+
   body {
     overscroll-behavior: none;
     text-rendering: optimizeLegibility;

@@ -1,4 +1,8 @@
 .hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     min-height: 100svh;
     background-image: url(../../assets/images/bg.svg);
     background-repeat: no-repeat; 
@@ -13,5 +17,30 @@
     .hero {
         background-image: url(../../assets/images/bgSmall.svg);
         background-position: center;
+    }
+}
+
+.heroContainer {
+  
+   
+    &-box {
+       background-color: var(--bg);
+       opacity: 0.8;
+       padding: 1rem 1rem;
+       max-inline-size: 500px;
+
+       &-subtitle {}
+
+       &-title {
+        margin-block-start: 1rem;
+       }
+
+       &-text {
+        margin-block-start: 2rem;
+       }
+
+       &-buttons {
+        margin-block-start: 1rem;
+       }
     }
 }
