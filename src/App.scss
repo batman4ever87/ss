@@ -17,7 +17,11 @@
     line-height: 1;
     text-transform: uppercase;
     font-family: var(--ff-main);
-    font-size: clamp(1.875rem, 1.7885514018691588rem + 0.3738317757009346vw, 2.125rem);
+    font-size: clamp(1.5rem, 1.283878504672897rem + 0.9345794392523366vw, 2.125rem);
+  }
+
+  h2 {
+    font-size: clamp(1.25rem, 1.1635514018691588rem + 0.3738317757009346vw, 1.5rem);
   }
 
   p {

@@ -10,6 +10,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
    
 }
 
@@ -24,8 +25,8 @@
   
    
     &-box {
-       background-color: var(--bg);
-       opacity: 0.8;
+    
+       background-color: rgba(18, 26, 31, 0.7);
        padding: 1rem 1rem;
        max-inline-size: 500px;
 
