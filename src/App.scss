@@ -91,3 +91,19 @@
     }
   }
 
+  .cta {
+    display: inline-block;
+    background: var(--clr-accent);
+    border-radius: 8px;
+    padding: 0.62rem 1.25rem;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+  }
+
+  .c2 {
+    background: transparent;
+    border: 1px solid var(--clr-accent);
+    color: var(--clr-white);
+  }
