@@ -1,3 +1,5 @@
-import Logo  from "../assets/images/Logo.svg";
+import Logo  from "../assets/images/logo.svg";
+
+
 
 export default [Logo];

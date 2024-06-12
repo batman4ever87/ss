@@ -1,15 +1,22 @@
 @font-face {
-    font-family: Babas;
-    src: url(../src/assets/fonts/BebasNeue-Regular.ttf) format("truetype");
+    font-family: Montserrat;
+    src: url(../src/assets/fonts/MontserratAlternates-ExtraBold.woff2) format("woff2");
 }
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../src/assets/fonts/MontserratAlternates-Medium.woff2) format("woff2");
+}
+
 
 :root {
 
-    --ff-main: Babas;
+    --ff-main: Montserrat;
+    --ff-medium: Montserrat-Medium;
 
-    --bg: rgb(21, 21, 24);
-    --clr-white: #F8F6FD;
-    --clr-accent: #C2FF3F;
+    --bg: #121A1F;
+    --clr-white: #F4f4f4;
+    --clr-accent: #83C033;
     --clr-textStroke: #6A6A6A;
-    --clr-brownText: #828282;
+    --clr-grayText: #8D8B8B;
 }

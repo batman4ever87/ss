@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="wrapper">
         <section className="about" id="about">
-            fsdfsdfds
+            About
         </section>
     </div>
   )

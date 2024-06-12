@@ -1,4 +1,4 @@
-import { Navbar, Hero, Video, About } from "./components"
+import { Navbar, Hero, About } from "./components"
 import './App.scss'
 import "./global.scss"
 
@@ -9,7 +9,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Video />
       <About />
     </>
   )

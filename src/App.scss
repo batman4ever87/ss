@@ -13,12 +13,6 @@
     scrollbar-width: none;
   }
 
-  h1 {
-    font-family: var(--ff-main);
-    line-height: 0.8;
-    font-size: clamp(5rem, 3.2710280373831773rem + 7.476635514018692vw, 10rem);
-  }
-  
   body {
     overscroll-behavior: none;
     text-rendering: optimizeLegibility;
@@ -27,6 +21,7 @@
     line-height: 1.5;
     background-color: var(--bg);
     color: var(--clr-white);
+    font-family: var(--ff-medium);
   }
   
   h1,
@@ -78,3 +73,4 @@
       padding-block: 2rem;
     }
   }
+
