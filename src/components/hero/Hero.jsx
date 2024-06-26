@@ -10,9 +10,9 @@ const Hero = () => {
       <div className="heroContainer">
         <div className="heroContainer-box">
           <h2 className="heroContainer-box-subtitle">HP-Pinnat OY</h2>
-          <h1 className="heroContainer-box-title">Tasoitetöitä <span>ammattitaidolla</span></h1>
+          <h1 className="heroContainer-box-title">Maalaus- ja pinnoitustyöt Pirkanmaalla</h1>
           <p className="heroContainer-box-text">
-            Me hoidamme saneeraus- ja uudisrakennushaasteesi. Teemme työmme huolella, jotta sinulla on yksi asia vähemmän huolehdittavaa.
+            Tervetuloa luotettavan ja ammattitaitoisen rakennusmaalaus ja pinnoitustyö yrityksen pariin. Olemme erikoistuneet tarjoamaan kattavia maalaus- ja pinnoitusratkaisuja sekä yksityis- että yritysasiakkaille. 
           </p>
           <div className="heroContainer-box-buttons">
             <button className="cta">Ota yhteyttä</button>

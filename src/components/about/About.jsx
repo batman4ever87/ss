@@ -2,11 +2,11 @@ import "./about.scss"
 
 const About = () => {
   return (
-    <div className="wrapper">
-        <section className="about" id="about">
-            About
-        </section>
-    </div>
+    <section className="about" id="about">
+      <div className="wrapper">
+        about
+      </div>
+    </section>
   )
 }
 
