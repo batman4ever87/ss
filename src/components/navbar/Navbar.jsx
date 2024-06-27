@@ -6,11 +6,12 @@ const Menu = () => (
   <>
   <p><a href="#">Koti</a></p>
   <p><a href="#services">Palvelut</a></p>
-  <p><a href="#services">Referenssit</a></p>
-  <p><a href="#">Meistä</a></p>
+  <p><a href="#refe">Referenssit</a></p>
+  <p><a href="#about">Meistä</a></p>
   <button className="cta">Ota yhteyttä</button>
   </>
 )
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

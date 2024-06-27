@@ -1,3 +1,20 @@
+.services {
+    background-image: url(../../assets/images/Services.png);
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (max-width: 37.5em) {
+    .services {
+        background-image: url(../../assets/images/Services-mobile.png);
+        background-position: center center;
+    }
+}
+
+
 .service-title-container {
 
     &-text {

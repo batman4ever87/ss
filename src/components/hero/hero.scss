@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: flex-end;
     min-height: 100svh;
-    background-image: url(../../assets/images/bg-1.webp);
+    background-image: url(../../assets/images/bg-2.png);
     background-repeat: no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 67.5em) {
     .hero {
-        background-image: url(../../assets/images/bgSmall-1.webp);
+        background-image: url(../../assets/images/bg-2-mobile.png);
         background-position: center center;
     }
 }
@@ -37,6 +37,10 @@
         color: var(--clr-grayText);
        }
 
+       &-subtitle {
+        color: var(--clr-accent);
+       }
+
        &-buttons {
         margin-block-start: 2rem;
 
@@ -44,5 +48,11 @@
             margin-right: 1rem;
         }
        }
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .heroContainer-box {
+        padding: 1.5rem 1rem;
     }
 }

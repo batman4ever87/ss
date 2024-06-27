@@ -9,7 +9,7 @@ const Hero = () => {
      <div className="wrapper">
       <div className="heroContainer">
         <div className="heroContainer-box">
-          <h2 className="heroContainer-box-subtitle">HP-Pinnat OY</h2>
+          <p className="heroContainer-box-subtitle">HP-Pinnat OY</p>
           <h1 className="heroContainer-box-title">Maalaus- ja pinnoitustyöt Pirkanmaalla</h1>
           <p className="heroContainer-box-text">
             Tervetuloa luotettavan ja ammattitaitoisen rakennusmaalaus ja pinnoitustyö yrityksen pariin. Olemme erikoistuneet tarjoamaan kattavia maalaus- ja pinnoitusratkaisuja sekä yksityis- että yritysasiakkaille. 

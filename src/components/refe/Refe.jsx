@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./refe.scss"
-import { ArrowLeft, ArrowLeftMobile, ArrowRight, ArrowRightMobile, img1, img2, img3 } from "../imports"
+import { img1, img2, img3 } from "../imports"
 import SliderButton from "../../sliderbutton/SliderButton";
 
 const slideStyles = {
@@ -9,6 +9,7 @@ const slideStyles = {
   borderRadius: "1.25rem 0 1.25rem 0",
   backgroundSize: "cover",
   backgroundPosition: "center center",
+  border: "1px solid #6A6A6A"
 };
 
 const dotsContainerStyles = {
@@ -67,18 +68,10 @@ const Refe = () => {
            <div className="sliderContainer" id="fullScreen">
             <div className="slider">
               <div className="sliderBack" onClick={goToPrevious}>
-                 <picture>
-                  <source media="(max-width: 550px)" srcSet={ArrowLeftMobile} />
-                  <source media="(min-width: 600px)" srcSet={ArrowLeft} />
-                  <img src={ArrowLeft} alt="Nuoli vasempaan" />
-                 </picture>
+                 〈
               </div>
               <div className="sliderNext" onClick={goToNext}>
-                 <picture>
-                  <source media="(max-width: 550px)" srcSet={ArrowRightMobile} />
-                  <source media="(min-width: 600px)" srcSet={ArrowRight} />
-                  <img src={ArrowRight} alt="Nuoli oikeaan" />
-                 </picture>
+                〉
               </div>
             </div>
             <div style={slideStylesWidthBackground}></div>
@@ -92,9 +85,6 @@ const Refe = () => {
             <div className="sliderFullScreen">
               <SliderButton />
             </div>
-           </div>
-           <div className="sliderContainerBottom">
-            <h1>Slider</h1>
            </div>
         </div>
     </section>
