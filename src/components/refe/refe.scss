@@ -1,0 +1,49 @@
+.refe {
+    background: var(--bg-neutral);
+}
+
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    margin-block-start: 6rem;
+}
+
+.refeContainerTitles {
+    
+    &-para {
+        margin-block-start: 1rem;
+        color: var(--clr-grayText);
+        max-width: 65ch;
+    }
+}
+
+
+.sliderBack {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 1rem;
+    font-size: 2rem;
+}
+
+.sliderNext {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 1rem;
+    font-size: 2rem;
+}
+
+.sliderFullScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 37.5em) {
+    .sliderContainer {
+        height: 350px;
+    }
+}
