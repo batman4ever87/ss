@@ -1,4 +1,4 @@
-import { Navbar, Hero, Services, Refe, About, Contact } from "./components"
+import { Navbar, Hero, Services, Refe, About, Contact, Footer, BottomFooter } from "./components"
 import './App.scss'
 import "./global.scss"
 
@@ -13,6 +13,8 @@ function App() {
       <Refe />
       <About />
       <Contact />
+      <Footer />
+      <BottomFooter />
     </>
   )
 }

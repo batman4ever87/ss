@@ -17,7 +17,10 @@ const dotsContainerStyles = {
   justifyContent: "center",
 };
 
-const dotStyle = ({ currentIndex, slideIndex }) => ({
+const dotStyle = ({
+  currentIndex,
+  slideIndex
+}) => ({
   margin: "0 13px",
   cursor: "pointer",
   fontSize: "2rem",
@@ -27,33 +30,41 @@ const dotStyle = ({ currentIndex, slideIndex }) => ({
 
 const Refe = () => {
 
-  const slides = [
-    { imagePath: img1, title: "Kuva 1"},
-    { imagePath: img2, title: "Kuva 2"},
-    { imagePath: img3, title: "Kuva 3"},
-  ];
+      const slides = [{
+              imagePath: img1,
+              title: "Kuva 1"
+          },
+          {
+              imagePath: img2,
+              title: "Kuva 2"
+          },
+          {
+              imagePath: img3,
+              title: "Kuva 3"
+          },
+      ];
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const goToPrevious = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
+      const [currentIndex, setCurrentIndex] = useState(0);
+      const goToPrevious = () => {
+          const isFirstSlide = currentIndex === 0;
+          const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+          setCurrentIndex(newIndex);
+      };
 
-  const goToNext = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
+      const goToNext = () => {
+          const isLastSlide = currentIndex === slides.length - 1;
+          const newIndex = isLastSlide ? 0 : currentIndex + 1;
+          setCurrentIndex(newIndex);
+      };
 
-  const goToSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex);
-  };
+      const goToSlide = (slideIndex) => {
+          setCurrentIndex(slideIndex);
+      };
 
-  const slideStylesWidthBackground = {
-    ...slideStyles,
-    backgroundImage: `url(${slides[currentIndex].imagePath})`,
-  };
+      const slideStylesWidthBackground = {
+          ...slideStyles,
+          backgroundImage: `url(${slides[currentIndex].imagePath})`,
+      };
 
   return (
     <section className="refe" id="refe">
@@ -71,7 +82,7 @@ const Refe = () => {
                  〈
               </div>
               <div className="sliderNext" onClick={goToNext}>
-                〉
+                 〉
               </div>
             </div>
             <div style={slideStylesWidthBackground}></div>

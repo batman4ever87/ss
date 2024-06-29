@@ -4,3 +4,5 @@ export { default as Services } from "./services/Services";
 export { default as Refe } from "./refe/Refe";
 export { default as About } from "./about/About";
 export { default as Contact } from "./contact/Contact";
+export { default as Footer } from "./footer/Footer";
+export { default as BottomFooter } from "./bottomfooter/BottomFooter";

@@ -1,0 +1,19 @@
+.footerContent {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+ gap: 2rem;
+ justify-content: space-between;
+ margin-block-start: 2rem;
+
+ &-address {
+
+    &-title {
+        margin-block-end: 1rem;
+    }
+
+    &-para {
+        font-size: .85rem;
+        margin-block: .50rem;
+    }
+ }
+}

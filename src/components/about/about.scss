@@ -1,0 +1,82 @@
+.about {
+    background-image: url(../../assets/images/ABOUT.png);
+    background-repeat: no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.aboutTitles {
+
+    &-para {
+        color: var(--clr-grayText);
+        margin-block-start: 1rem;
+        max-width: 65ch;
+    }
+}
+
+.aboutCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+    margin-block-start: 6rem;
+
+    &-card {
+        display: flex;
+        background: var(--bg-neutral);
+        max-inline-size: 700px;
+        gap: 2rem;
+        padding: 2rem 1rem;
+
+        &-textContent {
+            position: relative;
+
+            &-title {}
+
+            &-subtitle {
+                font-size: 1rem;
+            }
+
+            &-para {
+                margin-block-start: 1rem;
+                color: var(--clr-grayText);
+                max-width: 35ch;
+                font-size: .85rem;
+            }
+
+            &-bottom {
+                margin-block-start: 1rem;
+                &-email {
+                    display: flex;
+                    align-items: center;
+                    gap: .50rem;
+                }
+
+                &-phone {
+                    display: flex;
+                    align-items: center;
+                    gap: .50rem;
+                    margin-block-start: .80rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+
+    .about {
+        background-image: url(../../assets/images/about-mobile.png);
+        background-position: center center;
+    }
+
+    .aboutCards {
+        margin-block-start: 4rem;
+        gap: 1.5rem;
+
+        &-card {
+            flex-direction: column;
+        }
+    }
+}
